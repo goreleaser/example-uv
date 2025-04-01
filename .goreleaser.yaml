@@ -10,12 +10,7 @@ version: 2
 project_name: example-uv
 
 builds:
-  - id: wheel
-    builder: uv
-    buildmode: wheel
-  - id: sdist
-    builder: uv
-    buildmode: sdist
+  - builder: uv
 
 changelog:
   sort: asc
